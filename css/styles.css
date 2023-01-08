@@ -348,3 +348,37 @@ overflow: hidden;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: testimony_item
 }
+/*Proyectos Java*/
+.proyectos{
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 100px;
+    grid-column-gap: 15px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.proyecto{
+    position: relative;
+}
+
+.proyecto img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.descripcion_proyecto{
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: right;
+}
