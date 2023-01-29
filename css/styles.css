@@ -167,6 +167,7 @@
     height: 430px;
     background-color: #0c0d2b;
     color: white;
+    margin: 1em;
   }
 
   .card__img img{
