@@ -288,6 +288,12 @@
     border-bottom: #13a8ff;
   }
 
+  .container-contact img{
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+  }
+
   .btn-submit{
     padding: 10px 20px;
     margin: 1em;
@@ -303,9 +309,5 @@
     color: #000117;
   }
 
-  .container-contact img{
-    width: 750px;
-    height: 700px;
-    bottom: 0px;
-  }
+  
 
