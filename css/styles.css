@@ -137,6 +137,7 @@
   .menu li{
     list-style: none;
     overflow: hidden;
+    padding: 10px 20px;
   }
 
   .menu a{
