@@ -368,6 +368,19 @@
 
   .blogs{
     background: #000117;
+    color: white;
+}
+
+.subtitle{
+  font-size: 2em;
+}
+
+.blogs .container{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 80px 0px;
+  max-width: 1920px;
 }
 
 .blogs__grid{
