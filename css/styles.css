@@ -34,6 +34,38 @@
 
   /*Menu Hamburger*/
 
+
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li{
+    padding: 0 1rem;
+    list-style: none;
+    overflow: hidden;
+  }
+
+  .menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+
+  .menu a:hover{
+    background-color: #13a8fe;
+    color: #000117;
+    transition: ease-in-out .5s;
+    box-shadow: 1px 3px 11px -5px #13a8ff;
+  }
+
   .menu-button-container {
     display: none;
     height: 100%;
@@ -43,7 +75,7 @@
     justify-content: center;
     align-items: center;
   }
-
+  
   #menu-toggle {
     display: none;
   }
@@ -52,7 +84,7 @@
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: #13a8ff;
+    background-color: #fff;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -76,7 +108,7 @@
   }
   
   #menu-toggle:checked + .menu-button-container .menu-button {
-    background: #0c0d2b;
+    background: rgba(255, 255, 255, 0);
   }
   
   #menu-toggle:checked + .menu-button-container .menu-button::after {
@@ -89,7 +121,7 @@
       display: flex;
     }
     .menu {
-      position: inherit;
+      position: absolute;
       top: 0;
       margin-top: 50px;
       left: 0;
@@ -97,10 +129,9 @@
       width: 100%;
       justify-content: center;
       align-items: center;
-      display: flex;
     }
     #menu-toggle ~ .menu li {
-      height: 100px;
+      height: 0;
       margin: 0;
       padding: 0;
       border: 0;
@@ -111,46 +142,18 @@
       padding: 0.5em;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
-    .menu > li{
+    .menu > li {
       display: flex;
       justify-content: center;
       margin: 0;
-      padding: 10px 20px;
+      padding: 0.5em 0;
       width: 100%;
       color: white;
-      background-color: #0c0d2b;
-      list-style: none;
+      background-color: #13a8ff;
     }
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #13a8ff;
     }
-  }
-  .menu{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    max-width: 1920px;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-  }
-
-  .menu li{
-    list-style: none;
-    overflow: hidden;
-  }
-
-  .menu a{
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-  }
-
-  .menu a:hover{
-    background-color: #13a8fe;
-    color: #000117;
-    transition: ease-in-out .5s;
-    box-shadow: 1px 3px 11px -5px #13a8ff;
   }
 
   .main{
