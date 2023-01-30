@@ -238,6 +238,10 @@
     justify-content: center;
   }
 
+  .contact-section{
+    background-color: #000117;
+  }
+
   .container-contact{
     padding-top: 20px;
     margin: 0 auto;
@@ -246,7 +250,6 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    margin: 0 auto;
   }
 
   .contact-headings{
