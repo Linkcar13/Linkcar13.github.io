@@ -100,7 +100,7 @@
       display: flex;
     }
     #menu-toggle ~ .menu li {
-      height: 0;
+      height: 100px;
       margin: 0;
       padding: 0;
       border: 0;
@@ -117,7 +117,7 @@
       margin: 0;
       padding: 10px 20px;
       width: 100%;
-      color: #13a8ff;
+      color: white;
       background-color: #0c0d2b;
       list-style: none;
       overflow: visible;
