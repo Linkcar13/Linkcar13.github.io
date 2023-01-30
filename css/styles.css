@@ -149,7 +149,7 @@
       margin: 0;
       padding: 0.5em 0;
       width: 100%;
-      color: white;
+      color: #c3c3c3;
       background-color: #01263a99;
     }
     .menu > li:not(:last-child) {
