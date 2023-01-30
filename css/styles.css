@@ -239,22 +239,17 @@
   }
 
   .contact-section{
-    padding-top: 20px;
+    padding: 3em;
     margin: 0 auto;
     width: 80vw;
     height: 80vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    align-items: center;
     background-color: #000117;
   }
 
-  .container-contact{
-    padding: 3em;
-    margin: 0 auto;
-  }
-
   .contact-headings{
+    padding: 3em;
     font-size: 2em;
   }
 
