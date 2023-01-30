@@ -167,11 +167,17 @@
     row-gap: 10px;
     grid-template-columns: repeat(3,1fr);
     background-color: #000117;
-    overflow: scroll;
-    scrollbar-width: 150px;
-    scrollbar-color: #0c0d2b;
-    scrollbar-track-color: #000117;
+    overflow: hidden;
   }
+  /*Control responsive de projects*/
+  @media screen and (min-width: 900px) {
+    .portfolio .container{
+      overflow: scroll;
+      scrollbar-width: 150px;
+      scrollbar-color: #0c0d2b;
+      scrollbar-track-color: #000117;
+    }
+}
 
   .card{
     width: 300px;
