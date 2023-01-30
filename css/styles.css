@@ -66,6 +66,7 @@
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     background-color: #000117;
+    overflow: hidden;
   }
 
   h1{
@@ -99,7 +100,7 @@
   .main img{
     width: 60%;
     border: 7px solid #13a8fe;
-    height: 75%;
+    height: 100%;
     margin-top: 20px;
     margin-left: 100px;
   }
@@ -110,6 +111,7 @@
     grid-template-columns: repeat(10,1fr);
     width: 100%;
     align-items: center;
+    overflow: hidden;
   }
 
   .about img{
@@ -146,6 +148,7 @@
     background-color: #000117;
     color: white;
     background-size: cover;
+    overflow: hidden;
   }
 
   .portfolio-headings{
@@ -166,6 +169,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-color: #000117;
+    overflow: hidden;
   }
 
   .card{
