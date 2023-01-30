@@ -132,10 +132,12 @@
     height: 100%;
     max-width: 1920px;
     justify-content: flex-end;
+    flex-direction: row;
   }
 
   .menu li{
     list-style: none;
+    overflow: hidden;
   }
 
   .menu a{
