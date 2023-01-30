@@ -35,7 +35,6 @@
   .menu{
     display: flex;
     width: 100%;
-    justify-content: space-around;
     display: flex;
     height: 100%;
     max-width: 1920px;
