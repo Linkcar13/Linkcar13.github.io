@@ -150,10 +150,10 @@
       padding: 0.5em 0;
       width: 100%;
       color: white;
-      background-color: #13a8ff99;
+      background-color: #01263a99;
     }
     .menu > li:not(:last-child) {
-      border-bottom: 1px solid #13a8ff99;
+      border-bottom: 1px solid #01263a99;
     }
 
     .menu a:hover{
