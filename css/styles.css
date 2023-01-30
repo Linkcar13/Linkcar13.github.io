@@ -89,8 +89,8 @@
       display: flex;
     }
     .menu {
-      position: relative;
-      top: 20px;
+      position: inherit;
+      top: 0;
       margin-top: 50px;
       left: 0;
       flex-direction: column;
@@ -120,7 +120,6 @@
       color: white;
       background-color: #0c0d2b;
       list-style: none;
-      overflow: visible;
     }
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #13a8ff;
@@ -132,12 +131,13 @@
     height: 100%;
     max-width: 1920px;
     justify-content: flex-end;
+    margin: 0;
+    padding: 0;
   }
 
   .menu li{
     list-style: none;
     overflow: hidden;
-    padding: 10px 20px;
   }
 
   .menu a{
@@ -266,7 +266,7 @@
     overflow: hidden;
   }
   /*Control responsive de projects*/
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .portfolio .container{
       overflow: scroll;
       scrollbar-width: 150px;
