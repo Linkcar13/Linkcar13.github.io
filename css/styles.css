@@ -170,7 +170,7 @@
     overflow: hidden;
   }
   /*Control responsive de projects*/
-  @media screen and (min-width: 900px) {
+  @media screen and (max-width < 900px) {
     .portfolio .container{
       overflow: scroll;
       scrollbar-width: 150px;
