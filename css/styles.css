@@ -141,6 +141,7 @@
     width: 100%;
     background-color: #000117;
     color: white;
+    background-size: color;
   }
 
   .portfolio-headings{
@@ -159,6 +160,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    align-items: center;
   }
 
   .card{
