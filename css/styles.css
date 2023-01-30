@@ -141,6 +141,7 @@
     width: 100%;
     background-color: #000117;
     color: white;
+    background-size: cover;
   }
 
   .portfolio-headings{
@@ -155,8 +156,8 @@
 
   .portfolio .container{
     padding: 20px;
-    width: 100%;
-    height: 100%;
+    width: 80vw;
+    height: 80vh;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
