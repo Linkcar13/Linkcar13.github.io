@@ -18,6 +18,7 @@
     height: 100vh;
     background-color: #000117;
     color: white;
+    background-repeat: repeat-x ;
   }
 
   .navbar{
@@ -145,6 +146,7 @@
     background-color: #000117;
     color: white;
     background-size: cover;
+    background-repeat: repeat-x ;
   }
 
   .portfolio-headings{
@@ -166,7 +168,7 @@
     row-gap: 10px;
     grid-template-columns: repeat(3,1fr);
     background-color: #000117;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .card{
@@ -203,15 +205,18 @@
 
   .projects_links{
     display: flex;
+    position: relative;
     justify-content: space-evenly;
   }
 
    .projects_links a{
+    position: relative;
     color: white;
     text-decoration: none;
   }
 
   .projects_links i{
+    position: relative;
     font-size: 1.5em;
   }
   .projects_links i:hover{
@@ -219,6 +224,7 @@
   }
 
   .card .project-details{
+    position: relative;
     margin: 0 auto;
     align-self: center;
     justify-content: center;
