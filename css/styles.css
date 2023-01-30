@@ -121,8 +121,8 @@
       display: flex;
     }
     .menu {
-      position: relative;
-      top: 10;
+      position: absolute;
+      top: -100px;
       margin-top: 50px;
       left: 0;
       flex-direction: column;
