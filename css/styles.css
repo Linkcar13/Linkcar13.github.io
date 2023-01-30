@@ -97,6 +97,7 @@
       width: 100%;
       justify-content: center;
       align-items: center;
+      display: flex;
     }
     #menu-toggle ~ .menu li {
       height: 0;
@@ -119,6 +120,7 @@
       width: 100%;
       color: #13a8ff;
       background-color: #0c0d2b;
+      list-style: none;
     }
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #13a8ff;
