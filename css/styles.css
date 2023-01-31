@@ -679,11 +679,12 @@ overflow: hidden;
 
 	margin-right: 3px;
 	margin-bottom: 5px;
-  box-shadow: 5px 5px 11px 5px #13a8ff;
+  box-shadow: 1px 3px 11px -5px #13a8ff;
 }
 
 .footer-distributed .footer-icons a:hover{
   background-color:  #13a8ff;
+  box-shadow: none;
 }
 
 @media (max-width: 700px) {
