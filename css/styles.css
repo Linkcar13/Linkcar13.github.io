@@ -483,7 +483,7 @@ overflow: hidden;
 
 .contact-form{
   width: 100%;
-  display: flex;
+  justify-content: space-around;
 }
 
 .form-control input , textarea{
@@ -496,9 +496,6 @@ overflow: hidden;
 
 }
 
-.form-control input , textarea:active{
-border: none;
-}
 
 .btn-submit{
   padding: 10px 20px;
