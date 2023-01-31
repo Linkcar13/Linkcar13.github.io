@@ -569,6 +569,10 @@ overflow: hidden;
 	color:  inherit;
 }
 
+.footer-distributed .footer-links a:hover{
+  color: #13a8ff;
+}
+
 .footer-distributed .footer-company-name{
 	color:  #13a8fe;
 	font-size: 14px;
@@ -675,6 +679,7 @@ overflow: hidden;
 
 	margin-right: 3px;
 	margin-bottom: 5px;
+  box-shadow: 5px 5px 11px 5px #13a8ff;
 }
 
 .footer-distributed .footer-icons a:hover{
