@@ -460,3 +460,19 @@ overflow: hidden;
 
 /*Contact*/
 
+.contact-section{
+  background: #000117;
+  color: white;
+}
+
+.container-contact{
+  padding: 3em;
+  margin: 0 auto;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+
+
+
