@@ -474,5 +474,36 @@ overflow: hidden;
   gap: 10px;
 }
 
+.container-contact img{
+  max-width: 400px;
+}
+
+.form-control input , textarea{
+  background: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid #13a8ff;
+}
+
+.btn-submit{
+  padding: 10px 20px;
+  background-color: #13a8fe;
+  color: #000117;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px #13a8ff;
+}
+
+.btn-submit:hover{
+  padding: 10px 20px;
+  background-color: white;
+  color: #000117;
+  border: 1px solid #000117;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
 
 
