@@ -382,7 +382,7 @@
   overflow: hidden;
   padding-top: 0;
   padding-left: 0;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   padding-right: 0 ;
   max-width: 1920px;
 }
@@ -467,13 +467,14 @@ overflow: hidden;
 }
 .container-contact{
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 80vw;
   height: 80vh;
   display: grid;
   width: 100%;
   grid-template-columns: repeat(2,1fr);
   gap: 10px;
+  margin: 0 auto;
 }
 
 .container-contact img{
