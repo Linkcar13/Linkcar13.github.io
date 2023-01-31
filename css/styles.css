@@ -461,12 +461,13 @@ overflow: hidden;
 /*Contact*/
 
 .contact-section{
+  padding: 3em;
   background: #000117;
   color: white;
 }
-
 .container-contact{
-  padding: 3em;
+  width: 80vw;
+  height: 80vh;
   display: grid;
   width: 100%;
   grid-template-columns: repeat(2,1fr);
@@ -474,11 +475,12 @@ overflow: hidden;
 }
 
 .container-contact img{
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .form-control input , textarea{
   display: flex;
+  padding: 20px 30px;
   justify-content: space-evenly;
   background: transparent;
   color: white;
