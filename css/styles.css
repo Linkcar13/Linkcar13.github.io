@@ -461,7 +461,7 @@ overflow: hidden;
 /*Contact*/
 
 .right_conatct_social_icon{
-  background: linear-gradient(to top right, #000117 -5%, #13a8ff 100%);
+  background: linear-gradient(to top right, #13a8fe -5%, #13a8ff 100%);
 }
 .contact_us{
  background-color: #f1f1f1;
@@ -512,7 +512,7 @@ color: #000117;
 
 .contact_info_sec {
  position: absolute;
- background-color: #2d2d2d;
+ background-color: #13a8ff;
  right: 1px;
  top: 18%;
  height: 340px;
