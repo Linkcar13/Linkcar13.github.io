@@ -467,7 +467,6 @@ overflow: hidden;
 
 .container-contact{
   padding: 3em;
-  margin: 0 auto;
   display: grid;
   width: 100%;
   grid-template-columns: repeat(2,1fr);
@@ -479,6 +478,8 @@ overflow: hidden;
 }
 
 .form-control input , textarea{
+  display: flex;
+  justify-content: space-evenly;
   background: transparent;
   color: white;
   border: none;
