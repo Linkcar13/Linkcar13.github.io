@@ -466,6 +466,8 @@ overflow: hidden;
   color: white;
 }
 .container-contact{
+  align-items: center;
+  justify-content: space-evenly;
   width: 80vw;
   height: 80vh;
   display: grid;
