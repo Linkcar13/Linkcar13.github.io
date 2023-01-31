@@ -481,16 +481,23 @@ overflow: hidden;
   max-width: 500px;
 }
 
-.form-control input , textarea{
+.contact-form{
   width: 100%;
   display: flex;
+}
+
+.form-control input , textarea{
   padding: 20px 30px;
   justify-content: space-evenly;
   background: transparent;
   color: white;
   border: none;
   border-bottom: 1px solid #13a8ff;
-  transition: none;
+
+}
+
+.form-control input , textarea:active{
+border: none;
 }
 
 .btn-submit{
