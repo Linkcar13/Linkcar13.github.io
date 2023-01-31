@@ -570,5 +570,9 @@ button.contact_form_submit {
 .map_inner p{
  font-size: 13px;
 }
-  
+.map_bind{
+  margin-top: 50px;
+   border-radius: 30px;
+   overflow: hidden;
+}
 
