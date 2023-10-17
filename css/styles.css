@@ -478,7 +478,7 @@ overflow: hidden;
 }
 
 .container-contact img {
-  max-width: 100%; /* Hacer la imagen responsive */
+  max-width: 100%;
 }
 
 .contact-form {
@@ -495,10 +495,28 @@ overflow: hidden;
   border-bottom: 1px solid #13a8ff;
 }
 
+/* Estilo del botón de "Submit" */
+.button.btn-submit {
+  padding: 10px 20px;
+  background-color: #13a8fe;
+  color: #000117;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px #13a8ff;
+}
+
+/* Estilo del botón de "Submit" al pasar el cursor por encima */
+.button.btn-submit:hover {
+  background-color: white;
+  color: #000117;
+  box-shadow: none;
+}
+
 /* Estilos para pantallas más pequeñas (móviles) */
 @media (max-width: 768px) {
   .container-contact {
-    grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas más pequeñas */
+    grid-template-columns: 1fr;
     width: 90vw;
   }
 }
@@ -506,9 +524,11 @@ overflow: hidden;
 /* Estilos para pantallas muy pequeñas (móviles) */
 @media (max-width: 480px) {
   .contact-section {
-    padding: 2em; /* Reduce el relleno en pantallas muy pequeñas */
+    padding: 2em;
   }
 }
+
+
 
 
 /*footer*/
